@@ -8,11 +8,13 @@ Dibangun dengan **Expo (SDK 58)**, **React Native**, **Expo Router**, **Zustand*
 
 ## 📱 Screenshots
 
-<div align="center">
-  <img src="assets/screenshots/dashboard.png" width="45%" alt="LifeKit Dashboard (Light & Dark)" />
-  &nbsp;&nbsp;
-  <img src="assets/screenshots/saku.png" width="45%" alt="LifeKit Saku Keuangan (Light & Dark)" />
-</div>
+| Fitur | Dark Mode | Light Mode |
+| :--- | :---: | :---: |
+| **Dashboard**<br><sub>Ringkasan saldo, rutinitas harian, dan tagihan terdekat</sub> | <img src="assets/screenshots/dashboard.jpeg" width="280" alt="LifeKit Dashboard Dark" /> | <img src="assets/screenshots/dashboard_light.jpeg" width="280" alt="LifeKit Dashboard Light" /> |
+| **Saku (Keuangan)**<br><sub>Catatan transaksi, dompet (Cash/Bank/E-Wallet), dan grafik pengeluaran</sub> | <img src="assets/screenshots/saku.jpeg" width="280" alt="LifeKit Saku Dark" /> | <img src="assets/screenshots/saku_light.jpeg" width="280" alt="LifeKit Saku Light" /> |
+| **Rutinitas (Habits)**<br><sub>Checklist harian, streak, target mingguan, dan pengingat terjadwal</sub> | <img src="assets/screenshots/rutinitas.jpeg" width="280" alt="LifeKit Rutinitas Dark" /> | <img src="assets/screenshots/rutinitas_light.jpeg" width="280" alt="LifeKit Rutinitas Light" /> |
+| **Pengingat (Tagihan)**<br><sub>Pelacak langganan & tagihan, hitung mundur jatuh tempo, total komitmen</sub> | <img src="assets/screenshots/pengingat.jpeg" width="280" alt="LifeKit Pengingat Dark" /> | <img src="assets/screenshots/pengingat_light.jpeg" width="280" alt="LifeKit Pengingat Light" /> |
+| **Profil & Pengaturan**<br><sub>Tema (Light/Dark/System), bahasa (ID/EN), backup & restore data</sub> | <img src="assets/screenshots/profile.jpeg" width="280" alt="LifeKit Profil Dark" /> | <img src="assets/screenshots/profile_light.jpeg" width="280" alt="LifeKit Profil Light" /> |
 
 ---
 
@@ -24,6 +26,7 @@ Dibangun dengan **Expo (SDK 58)**, **React Native**, **Expo Router**, **Zustand*
 | **Saku** | Pencatatan pemasukan dan pengeluaran per dompet (Cash, Bank, E-Wallet), ringkasan donut kategori, filter dompet, dan navigasi bulan. |
 | **Rutinitas** | Habit tracker dengan checklist harian, streak, target mingguan, kategori ibadah/spiritual yang netral agama, dan pengingat jam terjadwal. |
 | **Pengingat** | Pelacak langganan dan tagihan (bulanan/tahunan), total komitmen bulanan, dan hitung mundur jatuh tempo. |
+| **Profil & Pengaturan** | Kustomisasi tema (Dark/Light/System), pilihan bahasa (Indonesia/Inggris), serta ekspor & impor cadangan data lokal (JSON backup). |
 
 ## Teknologi
 
