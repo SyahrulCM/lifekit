@@ -4,6 +4,18 @@ LifeKit adalah aplikasi mobile **offline-first** untuk mengelola keuangan, rutin
 
 Dibangun dengan **Expo (SDK 58)**, **React Native**, **Expo Router**, **Zustand**, dan **expo-sqlite**. Mendukung tema **Light** dan **Dark**.
 
+---
+
+## 📱 Screenshots
+
+<div align="center">
+  <img src="assets/screenshots/dashboard.png" width="45%" alt="LifeKit Dashboard (Light & Dark)" />
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/saku.png" width="45%" alt="LifeKit Saku Keuangan (Light & Dark)" />
+</div>
+
+---
+
 ## Fitur
 
 | Modul | Deskripsi |
@@ -40,6 +52,7 @@ lifekit/
 │       ├── rutinitas/        # components, repositories, services, stores, types
 │       └── pengingat/        # components, repositories, stores, types
 ├── assets/
+│   └── screenshots/          # Screenshot aplikasi
 ├── components/
 └── constants/
 ```
@@ -58,7 +71,7 @@ Setiap fitur mengikuti pola yang sama: **UI (components) → Zustand store → r
 ### Instalasi
 
 ```bash
-git clone <url-repository-kamu>
+git clone https://github.com/SyahrulCM/lifekit.git
 cd lifekit
 npm install
 ```
